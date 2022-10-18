@@ -1,7 +1,9 @@
+package Google;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class FooBar1 {
   public static void main(String[] args) {
       long time  = Long.MIN_VALUE;
       for(int i = 100; i < 200; i++){
