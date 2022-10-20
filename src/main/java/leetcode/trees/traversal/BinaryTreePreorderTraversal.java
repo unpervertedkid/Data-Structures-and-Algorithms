@@ -1,4 +1,6 @@
-package leetcode.trees;
+package leetcode.trees.traversal;
+
+import leetcode.trees.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
