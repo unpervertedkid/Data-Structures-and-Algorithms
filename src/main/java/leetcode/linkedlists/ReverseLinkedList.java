@@ -15,7 +15,7 @@ public class ReverseLinkedList {
         }
     }
     public static ListNode reverseList(ListNode head) {
-        
+
         ListNode previous = null;
         ListNode current = head;
         ListNode next = current !=null ? current.next : null;
