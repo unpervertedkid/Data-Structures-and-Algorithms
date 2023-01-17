@@ -46,9 +46,7 @@ public class LargestNumberDivisibleByThree {
         StringBuilder sb = new StringBuilder();
         for (int i = 9; i >= 0; i--) {
             int c = count.getOrDefault(i, 0);
-            for (int j = 0; j < c; j++) {
-                sb.append(i);
-            }
+            sb.append(String.valueOf(i).repeat(Math.max(0, c)));
         }
         String result = sb.toString();
         return result.isEmpty() || remainder != 0 ? 0 : Integer.parseInt(result);
