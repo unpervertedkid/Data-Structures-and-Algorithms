@@ -1,18 +1,6 @@
 package foobar;
 
 public class ChallengeOne {
-    public static void main(String[] args) {
-        int testCaseOne = solution("abcabcabcabc");
-        int testCaseTwo = solution("abccbaabccba");
-        int testCaseThree = solution("abcabcabc");
-        int testCaseFour = solution("abccbaabccba");
-
-        System.out.println("Test case 1: abcabcabcabc -> " + testCaseOne);
-        System.out.println("Test case 2: abccbaabccba -> " + testCaseTwo);
-        System.out.println("Test case 3: abcabcabc -> " + testCaseThree);
-        System.out.println("Test case 4: abccbaabccba -> " + testCaseFour);
-    }
-
     public static int solution(String s) {
         // Find the shortest repeating substring
        int length = (s + s).indexOf(s, 1);

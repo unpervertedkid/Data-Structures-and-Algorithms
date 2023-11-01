@@ -15,14 +15,7 @@ public class ChallengeTwo {
 
     // The possible moves a knight can make
     public static final int[][] MOVES =  {{-2, -1}, {-2, 1}, {-1, -2}, {-1, 2}, {1, -2}, {1, 2}, {2, -1}, {2, 1}};
-    public static void main(String[] args) {
-        int testCaseOne = solution(19, 36);
-        int testCaseTwo = solution(0, 1);
-
-        System.out.println("Test case 1: 19, 36 -> " + testCaseOne);
-        System.out.println("Test case 2: 0, 1 -> " + testCaseTwo);
-    }
-
+    
     // Class to represent a cell in the chessboard
     public static class Cell {
         int row;
